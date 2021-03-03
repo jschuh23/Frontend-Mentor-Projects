@@ -1,35 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | Profile card component</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="card__background--pattern"></div>
+      <div class="card__info">
+        <img
+          class="card__info--img"
+          src="/images/image-victor.jpg"
+          alt="Victor Crest"
+        />
+        <li class="card__info--list">
+          <ul>
+            Victor Crest
+            <span>26</span>
+          </ul>
+          <ul>
+            London
+          </ul>
+        </li>
+      </div>
+      <div class="card__specs">
+        <li class="card__specs--list">
+          <ul>
+            80K
+          </ul>
+          <ul>
+            Followers
+          </ul>
+        </li>
+        <li class="card__specs--list">
+          <ul>
+            803K
+          </ul>
+          <ul>
+            Likes
+          </ul>
+        </li>
+        <li class="card__specs--list">
+          <ul>
+            1.4K
+          </ul>
+          <ul>
+            Photos
+          </ul>
+        </li>
+      </div>
+    </div>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/jschuh23">Janelle Schuh</a>.
+    </div>
+  </body>
 </html>
