@@ -118,17 +118,18 @@ main {
   text-align: center;
 }
 
-.card__info--list li:first-of-type {
+.card__info--list h2 {
   margin: 0.5rem 0 0.28rem;
+  font-size: 1.125rem;
 }
 
-.card__info--list li:first-of-type span {
+.card__info--list h2 > span {
   padding-left: 0.28rem;
   color: var(--primary-dark-gray-blue);
   font-weight: 400;
 }
 
-.card__info--list li:last-of-type {
+.card__info--list p {
   color: var(--primary-dark-gray-blue);
   font-size: 0.78rem;
   font-weight: 400;
