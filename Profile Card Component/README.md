@@ -5,7 +5,7 @@
 Please visit my final project at https://jschuh23.github.io/Frontend-Mentor-Projects/Profile%20Card%20Component/index.html
 
 ## The challenge
-The challenge was to build out a profile card component and get it looking as close to the design as possible.
+Build out a profile card component and get it looking as close to the design as possible
 * Newbie level
 * HTML and CSS skills
 
