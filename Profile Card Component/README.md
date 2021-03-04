@@ -4,7 +4,7 @@
 
 Please visit my final project at https://jschuh23.github.io/Frontend-Mentor-Projects/Profile%20Card%20Component/index.html
 
-## The challenge
+## The Challenge
 Build out a profile card component and get it looking as close to the design as possible
 * Newbie level
 * HTML and CSS skills
@@ -13,6 +13,8 @@ Build out a profile card component and get it looking as close to the design as 
 * Mobile and desktop widths
 * A `style-guide.md` file which contained information regarding base styles - color palette and fonts
 * I am a Frontend Mentor Pro subscriber so I had access to the Figma design file
+
+## My Process
 
 ### Tools I used
 * CSS custom properties (variables)
