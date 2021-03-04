@@ -1,3 +1,12 @@
+/* VARIABLES */
+:root {
+  --primary-dark-cyan: hsl(185, 75%, 39%);
+  --primary-dark-blue: hsl(229, 23%, 23%);
+  --primary-dark-gray-blue: hsl(227, 10%, 46%);
+  --neutral-dark-gray: hsl(0, 0%, 59%);
+  --neutral-light-gray: hsl(225, 10%, 92%);
+}
+
 /* RESET */
 *,
 *::before,
@@ -16,9 +25,9 @@ html {
 body {
   font-family: 'Kumbh Sans';
   font-weight: 700;
-  color: #2e3349;
+  color: var(--primary-dark-blue);
   line-height: 1.6;
-  background-color: #19a1ae;
+  background-color: var(--primary-dark-cyan);
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -42,13 +51,25 @@ ul {
 /* CARD STYLES */
 .card {
   background-color: #fff;
-  border-radius: 15px;
+  border-radius: 0.83rem;
   height: 20.7rem;
   width: 18.1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.card__background--pattern {
+  height: 8.4rem;
+  width: 100%;
+  background-image: url(./images/bg-pattern-card.svg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top-left-radius: 0.83rem;
+  border-top-right-radius: 0.83rem;
 }
 
 .card__info {
@@ -61,21 +82,28 @@ ul {
 
 .card__info--img {
   border-radius: 50%;
+  z-index: 1;
+  border: 5px solid #fff;
 }
 
 .card__info--list {
   text-align: center;
 }
 
+.card__info--list li:first-of-type {
+  margin: 0.5rem 0 0.28rem;
+}
+
 .card__info--list li:first-of-type span {
   font-weight: 400;
-  color: #6b7082;
+  color: var(--primary-dark-gray-blue);
+  padding-left: 0.28rem;
 }
 
 .card__info--list li:last-of-type {
   font-weight: 400;
-  color: #6b7082;
-  font-size: 0.77rem;
+  color: var(--primary-dark-gray-blue);
+  font-size: 0.78rem;
 }
 
 .card__specs {
@@ -84,8 +112,18 @@ ul {
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
-  border-top: solid 1px #e8e9ec;
+  border-top: solid 1px var(--neutral-light-gray);
   flex-shrink: 0;
+  padding: 1rem 0;
+  position: absolute;
+  bottom: 0;
+}
+
+.card__specs--list li:nth-of-type(2) {
+  font-weight: 400;
+  font-size: 0.56rem;
+  letter-spacing: 1.5px;
+  padding-top: 0.2rem;
 }
 
 /* FOOTER */
@@ -100,4 +138,10 @@ footer {
 
 .attribution a {
   color: #3e52a3;
+}
+
+@media screen and (min-width: 80em) {
+  .card {
+    width: 19.45rem;
+  }
 }
