@@ -188,3 +188,17 @@ footer {
     left: 100%;
   }
 }
+
+@media (orientation: landscape) {
+  .card {
+    height: 18.7rem;
+  }
+
+  .card::before {
+    height: 7.4rem;
+  }
+
+  .card__specs {
+    padding: 0.5rem 0;
+  }
+}
