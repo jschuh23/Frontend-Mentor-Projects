@@ -19,11 +19,12 @@
 /* BASE STYLES */
 html {
   font-size: 112.5%;
-  height: 100%;
+  height: -webkit-fill-available;
 }
 
 body {
   min-height: 100vh;
+  min-height: -webkit-fill-available;
   background-color: var(--primary-dark-cyan);
   color: var(--primary-dark-blue);
   font-family: 'Kumbh Sans';
