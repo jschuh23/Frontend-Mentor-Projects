@@ -19,12 +19,10 @@
 /* BASE STYLES */
 html {
   font-size: 112.5%;
-  height: -webkit-fill-available;
 }
 
 body {
   min-height: 100vh;
-  min-height: -webkit-fill-available;
   background-color: var(--primary-dark-cyan);
   color: var(--primary-dark-blue);
   font-family: 'Kumbh Sans';
@@ -58,7 +56,6 @@ section {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  min-height: -webkit-fill-available;
   overflow: hidden;
 }
 
