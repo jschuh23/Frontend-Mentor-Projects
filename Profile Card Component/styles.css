@@ -19,10 +19,11 @@
 /* BASE STYLES */
 html {
   font-size: 112.5%;
+  height: 100%;
 }
 
 body {
-  min-height: 100vh;
+  height: 100%;
   background-color: var(--primary-dark-cyan);
   color: var(--primary-dark-blue);
   font-family: 'Kumbh Sans';
@@ -39,7 +40,7 @@ ul {
   position: relative;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 100%;
   overflow: hidden;
 }
 
@@ -179,7 +180,7 @@ footer {
 }
 
 /* MEDIA QUERIES */
-@media only screen and (min-device-width: 568px) and (max-device-width: 667px) {
+@media only screen and (min-device-width: 560px) and (max-device-width: 670px) {
   .card__info {
     margin: 1rem 0 0.5rem;
   }
