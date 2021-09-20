@@ -2,7 +2,7 @@
 
 ![Desktop Screenshot](./design/Screenshot.png)
 
-Please visit my final project at https://jschuh23.github.io/Frontend-Mentor-Projects/Profile-Card-Component/index.html
+Please visit my final project in my [GitHub repository](https://jschuh23.github.io/Frontend-Mentor-Projects/Profile-Card-Component/index.html)
 
 ## The Challenge
 
