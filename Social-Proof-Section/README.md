@@ -47,11 +47,11 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ### Lessons learned
 
--
+- I researched how best to place hanging puncutations on blockquotes. The CSS property 'hanging-punctuation' is currently not supported in many browsers. I found an article on CSS Tricks that provides syntax to use when the property is not supported and for those browsers where it is supported.
 
 ### Useful resources
 
--
+- [CSS Ticks: Quoting in HTML: Quotations, Citations, and Blockquotes](https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/)
 
 ## AUTHOR
 
