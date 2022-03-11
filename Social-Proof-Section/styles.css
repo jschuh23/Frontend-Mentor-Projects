@@ -71,7 +71,7 @@ img {
     font-size: 2rem;
     font-weight: 700;
     line-height: 1;
-    margin-block-end: 1.1rem;
+    padding: 0.2rem 0 1.1rem;
 }
 
 .header__text p {
@@ -114,7 +114,7 @@ span.ratings {
     font-size: 0.8125rem;
     background-color: var(--primary-dark-magenta);
     border-radius: 8px;
-    padding: 2rem;
+    padding: 2.5rem 2rem;
 }
 
 .testimonial:not(:last-child) {
@@ -143,8 +143,9 @@ span.ratings {
 
 /* Remove styles if needed */
 .attribution {
-    font-size: 11px;
+    font-size: 0.6875rem;
     text-align: center;
+    margin-block-end: 1rem;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
