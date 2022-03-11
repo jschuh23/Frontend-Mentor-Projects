@@ -1,12 +1,3 @@
-/* Remove styles if needed */
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
-
 /* Colors */
 :root {
     --primary-dark-magenta: hsl(300, 43%, 22%);
@@ -49,7 +40,7 @@ img {
 /* width 90%, max-width 1110px */
 .container {
     width: min(90%, 69.375rem);
-    margin: 0 auto;
+    margin: 5rem auto;
     overflow: hidden;
 }
 
@@ -65,9 +56,13 @@ img {
     display: flex;
 }
 
+.flex-testimonial {
+    display: flex;
+    align-items: center;
+}
+
 /* Header styles */
 .header {
-    margin-block-start: 5rem;
     text-align: center;
 }
 
@@ -111,4 +106,46 @@ span.ratings {
     color: var(--primary-dark-magenta);
     font-size: 0.8125rem;
     font-weight: 700;
+}
+
+/* Testimonial styles */
+.testimonial {
+    color: var(--neutral-white);
+    font-size: 0.8125rem;
+    background-color: var(--primary-dark-magenta);
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+.testimonial:not(:last-child) {
+    margin-block-end: 1rem;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    margin-inline-end: 1.5rem;
+}
+
+.testimonial__name {
+    font-size: 0.8125rem;
+    font-weight: 700;
+}
+
+.testimonial__title {
+    color: var(--primary-soft-pink);
+}
+
+.testimonial blockquote {
+    font-weight: 500;
+    line-height: 1.7;
+    margin-block-start: 1.5rem;
+}
+
+/* Remove styles if needed */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
