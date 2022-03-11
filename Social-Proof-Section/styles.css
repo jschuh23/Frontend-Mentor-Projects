@@ -17,14 +17,15 @@
 }
 
 /* Reset */
-html, body {
+html,
+body {
     height: 100%;
 }
 
 body {
     font-family: 'Spartan', sans-serif;
     font-size: 0.9375rem;
-    line-height: 1.5;
+    line-height: 1.6;
     background-color: #fff;
 }
 
@@ -41,4 +42,45 @@ body {
 img {
     display: block;
     max-width: 100%;
+}
+
+/* Page container */
+/* width 90%, max-width 1110px */
+.container {
+    width: min(90%, 69.375rem);
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Flex containers and items */
+div.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div.flex-stars {
+    display: flex;
+}
+
+/* Header styles */
+.header {
+    margin-block-start: 5rem;
+}
+
+.header,
+span.ratings {
+    text-align: center;
+}
+
+.header__text h1 {
+    color: var(--primary-dark-magenta);
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.header__text p {
+    color: var(--neutral-dark-gray-magenta);
+    margin: 1.1rem 0 2.5rem;
 }
