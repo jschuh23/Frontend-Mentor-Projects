@@ -25,8 +25,9 @@ body {
 body {
     font-family: 'Spartan', sans-serif;
     font-size: 0.9375rem;
+    font-weight: 400;
     line-height: 1.6;
-    background-color: #fff;
+    background-color: var(--neutral-white);
 }
 
 *,
@@ -52,35 +53,62 @@ img {
     overflow: hidden;
 }
 
-/* Flex containers and items */
-div.flex-container {
+/* Flex styles */
+.flex-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
-div.flex-stars {
+.flex-stars {
     display: flex;
 }
 
 /* Header styles */
 .header {
     margin-block-start: 5rem;
-}
-
-.header,
-span.ratings {
     text-align: center;
 }
 
 .header__text h1 {
     color: var(--primary-dark-magenta);
     font-size: 2rem;
+    font-weight: 700;
     line-height: 1;
+    margin-block-end: 1.1rem;
 }
 
 .header__text p {
     color: var(--neutral-dark-gray-magenta);
-    margin: 1.1rem 0 2.5rem;
+    font-weight: 500;
+}
+
+.header__ratings {
+    margin: 2.5rem 0 3rem;
+    width: 100%;
+}
+
+.header__ratings--block {
+    background-color: var(--neutral-light-gray-magenta);
+    padding: 1rem 0;
+    border-radius: 8px;
+}
+
+.header__ratings--block:not(:last-child) {
+    margin-block-end: 1rem;
+}
+
+.stars {
+    margin-block-end: 1rem;
+}
+
+.stars img:nth-child(even) {
+    padding: 0 0.5rem;
+}
+
+span.ratings {
+    color: var(--primary-dark-magenta);
+    font-size: 0.8125rem;
+    font-weight: 700;
 }
