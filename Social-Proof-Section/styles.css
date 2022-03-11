@@ -141,6 +141,19 @@ span.ratings {
     margin-block-start: 1.5rem;
 }
 
+/* Fallback for hanging quotations */
+blockquote {
+    text-indent: -0.45em;
+}
+
+/* If there's support, erase the indent and use the property instead for hanging quotations */
+@supports (hanging-punctuation: first) {
+    blockquote {
+        text-indent: 0;
+        hanging-punctuation: first;
+    }
+}
+
 /* Remove styles if needed */
 .attribution {
     font-size: 0.6875rem;
