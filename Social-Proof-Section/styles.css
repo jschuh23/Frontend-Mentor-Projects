@@ -126,6 +126,10 @@ span.ratings {
     margin-inline-end: 1.5rem;
 }
 
+figcaption span {
+    display: block;
+}
+
 .testimonial__name {
     font-size: 0.8125rem;
     font-weight: 700;
