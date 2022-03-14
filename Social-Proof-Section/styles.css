@@ -121,6 +121,7 @@ span.ratings {
     margin-block-end: 5rem;
 }
 .testimonial {
+    max-width: 21.875rem;
     color: var(--neutral-white);
     font-size: 0.8125rem;
     background-color: var(--primary-dark-magenta);
@@ -153,6 +154,7 @@ figcaption span {
 .testimonial blockquote {
     font-weight: 500;
     line-height: 1.7;
+    letter-spacing: -0.23px;
     margin-block-start: 1.5rem;
 }
 
@@ -208,6 +210,10 @@ blockquote {
     }
 
     .stars {
+        margin-block-end: 0;
+    }
+
+    .testimonial:not(:last-child) {
         margin-block-end: 0;
     }
 }
