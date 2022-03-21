@@ -211,6 +211,7 @@ footer {
     .header {
         text-align: left;
         margin-block-start: 0;
+        margin-block-end: 4rem;
     }
 
     .header__text {
