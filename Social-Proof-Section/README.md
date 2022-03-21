@@ -40,10 +40,11 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 - Mobile-first workflow
 - Semantic HTML5 markup
+- CSS Flexbox and Grid
 
 ### Continued development
 
--
+- I continued learning about CSS flexbox and grid during this challenge as I used these techniques to layout the different components.
 
 ### Lessons learned
 
