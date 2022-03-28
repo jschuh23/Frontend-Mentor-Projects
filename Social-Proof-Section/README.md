@@ -50,7 +50,7 @@ Please visit my final project in my [GitHub repository](https://jschuh23.github.
 
 ### Lessons learned
 
--   I researched how best to place hanging puncutations on blockquotes. The CSS property 'hanging-punctuation' is currently not supported in many browsers. I found an article on CSS Tricks that provides syntax to use when the property is not supported and for those browsers where it is supported.
+-   I researched how best to place hanging puncutations on blockquotes. The CSS property `hanging-punctuation` is currently not supported in many browsers. I found an article on CSS Tricks that provides syntax to use when the property is not supported and for those browsers where it is supported.
 
 ### Useful resources
 
