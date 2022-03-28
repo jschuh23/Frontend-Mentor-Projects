@@ -5,14 +5,14 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 ## TABLE OF CONTENTS
 
 -   [Overview](#overview)
--   [The Challenge](#the-challenge)
--   [Screenshot](#screenshot)
--   [Links](#links)
+    -   [The Challenge](#the-challenge)
+    -   [Screenshot](#screenshot)
+    -   [Links](#links)
 -   [My Process](#my-process)
--   [Built With](#built-with)
--   [Continued Development](#continued-development)
--   [Lessons Learned](#lessons-learned)
--   [Useful Resources](#useful-resources)
+    -   [Built With](#built-with)
+    -   [Continued Development](#continued-development)
+    -   [Lessons Learned](#lessons-learned)
+    -   [Useful Resources](#useful-resources)
 -   [Author](#author)
 
 ## OVERVIEW
@@ -26,7 +26,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ### Screenshot
 
-<!-- ![Desktop Screenshot](./design/Screenshot.jpg) -->
+-   ![Desktop Screenshot](./design/FEM%20Social%20Proof%20-%20desktop.JPG)
 
 ### Link
 
@@ -36,7 +36,10 @@ Please visit my final project in my [GitHub repository](https://jschuh23.github.
 
 ### Built with
 
--   Mobile-first workflow
+-   Mobile-first workflow with breakpoints at:
+    -   1000px
+    -   1100px
+    -   1000px - 1170px
 -   Semantic HTML5 markup
 -   CSS Flexbox and Grid
 -   Logical properties used for margin and padding
