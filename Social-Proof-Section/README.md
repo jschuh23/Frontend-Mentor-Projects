@@ -1,6 +1,6 @@
 # Frontend Mentor - Social proof section
 
-This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA){:target="\_blank"}. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## TABLE OF CONTENTS
 
@@ -30,7 +30,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ### Link
 
-Please visit my final project in my [GitHub repository](https://jschuh23.github.io/Frontend-Mentor-Projects/Social-Proof-Section/index.html){:target="\_blank"}
+Please visit my final project in my [GitHub repository](https://jschuh23.github.io/Frontend-Mentor-Projects/Social-Proof-Section/index.html)
 
 ## MY PROCESS
 
@@ -54,10 +54,10 @@ Please visit my final project in my [GitHub repository](https://jschuh23.github.
 
 ### Useful resources
 
--   [CSS Ticks: Quoting in HTML: Quotations, Citations, and Blockquotes](https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/){:target="\_blank"}
+-   [CSS Ticks: Quoting in HTML: Quotations, Citations, and Blockquotes](https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/)
 
 ## AUTHOR
 
--   Frontend Mentor: [@jschuh23](https://www.frontendmentor.io/profile/jschuh23){:target="\_blank"}
--   LinkedIn: [janelle-schuh](https://www.linkedin.com/in/janelle-schuh/){:target="\_blank"}
--   Twitter: [@janelleschuh](https://www.twitter.com/janelleschuh){:target="\_blank"}
+-   Frontend Mentor: [@jschuh23](https://www.frontendmentor.io/profile/jschuh23)
+-   LinkedIn: [janelle-schuh](https://www.linkedin.com/in/janelle-schuh/)
+-   Twitter: [@janelleschuh](https://www.twitter.com/janelleschuh)
