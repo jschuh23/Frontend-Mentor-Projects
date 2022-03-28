@@ -76,8 +76,8 @@ body {
 
 /* Background Images */
 body {
-    background-image: url(/images/bg-pattern-top-mobile.svg),
-        url(/images/bg-pattern-bottom-mobile.svg);
+    background-image: url(./images/bg-pattern-top-mobile.svg),
+        url(./images/bg-pattern-bottom-mobile.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: top left, bottom right;
 }
@@ -210,8 +210,8 @@ footer {
 /* Media queries */
 @media (min-width: 62.5em) {
     body {
-        background-image: url(/images/bg-pattern-top-desktop.svg),
-            url(/images/bg-pattern-bottom-desktop.svg);
+        background-image: url(./images/bg-pattern-top-desktop.svg),
+            url(./images/bg-pattern-bottom-desktop.svg);
     }
 
     .flex--figures {
