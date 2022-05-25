@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    min-height: 100%;
+    height: 100vh;
     font-family: 'Outfit', sans-serif;
     font-size: 0.9375rem;
     font-weight: 400;
@@ -37,11 +37,25 @@ img {
     display: block;
 }
 
+/* ----- Main styles to fill entire viewport ----- */
+.main {
+    height: 100%;
+}
+
+/* ----- Flex wrapper ----- */
+.flex-wrap {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* ----- QR card styles ----- */
 .qr__card {
     padding: 1rem 1rem 2.5rem;
     background-color: var(--white);
     border-radius: 20px;
+    width: min(90%, 20rem);
 }
 
 .qr__card--img {
@@ -66,8 +80,4 @@ img {
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
-}
-
-footer {
-    margin-block-start: auto;
 }
