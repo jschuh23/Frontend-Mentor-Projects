@@ -37,13 +37,6 @@ img {
     display: block;
 }
 
-/* ----- Page container ----- */
-/* width 90%, max-width 1140px */
-.container {
-    width: min(90%, 71.25rem);
-    margin-inline: auto;
-}
-
 /* ----- QR card styles ----- */
 .qr__card {
     padding: 1rem 1rem 2.5rem;
