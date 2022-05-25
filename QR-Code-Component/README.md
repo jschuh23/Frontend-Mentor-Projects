@@ -29,7 +29,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Link
 
-<!-- Please visit my final project in my [GitHub repository](https://jschuh23.github.io/Frontend-Mentor-Projects/Social-Proof-Section/index.html) -->
+Please visit my final project in my [GitHub repository](https://jschuh23.github.io/Frontend-Mentor-Projects/QR-Code-Component/index.html)
 
 ## MY PROCESS
 
@@ -40,7 +40,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
     -   1100px
     -   1000px - 1170px
 -   Semantic HTML5 markup
--   CSS Flexbox and Grid
+-   CSS Flexbox
 -   Logical properties used for margin and padding -->
 
 ### Continued development
@@ -49,7 +49,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Lessons learned
 
--   
+<!-- -   I did additional research into creating this design in landscape orientation. I have learned that my initial settings for the html and body heights don't seem to be working appropriately when in landscape. NEED TO RESEARCH MORE -->
 
 ### Useful resources
 
