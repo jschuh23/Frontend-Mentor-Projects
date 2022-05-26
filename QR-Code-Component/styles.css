@@ -85,7 +85,7 @@ img {
 /* ----- Footer styles ----- */
 footer {
     color: var(--dark-blue);
-    margin-block-end: 1rem;
+    padding-block: 1rem;
 }
 
 .attribution {
