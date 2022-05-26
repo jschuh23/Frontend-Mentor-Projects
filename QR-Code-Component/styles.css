@@ -9,10 +9,12 @@
 /* ----- Reset ----- */
 html {
     height: 100%;
+    height: -webkit-fill-available;
 }
 
 body {
     height: 100%;
+    height: -webkit-fill-available;
     font-family: 'Outfit', sans-serif;
     font-size: 0.9375rem;
     font-weight: 400;
