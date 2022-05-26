@@ -1,7 +1,7 @@
 /* ----- Colors ----- */
 :root {
     --white: hsl(0, 0%, 100%);
-    --light-gray: hsl(212, 45%, 89%);
+    --light-gray: hsl(212, 46%, 89%);
     --gray-blue: hsl(220, 15%, 55%);
     --dark-blue: hsl(218, 44%, 22%);
 }
@@ -56,10 +56,14 @@ img {
 
 /* ----- QR card styles ----- */
 .qr__card {
+    width: min(90%, 20rem);
     padding: 1rem 1rem 2.5rem;
     background-color: var(--white);
     border-radius: 20px;
-    width: min(90%, 20rem);
+    box-shadow: 0.3px 0.5px 0.9px hsla(215deg, 19%, 72%, 0),
+        1px 1.9px 3.2px hsla(215deg, 19%, 72%, 0.09),
+        1.9px 3.7px 6.2px hsla(215deg, 19%, 72%, 0.18),
+        3.8px 7.5px 12.6px hsla(215deg, 19%, 72%, 0.26);
 }
 
 .qr__card--img {
