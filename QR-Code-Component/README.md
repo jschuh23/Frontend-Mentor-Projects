@@ -6,8 +6,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 -   [Overview](#overview)
     -   [The Challenge](#the-challenge)
-    -   [Link](#links)
-    -   [Screenshots](#screenshot)
+    -   [Link](#link)
+    -   [Screenshots](#screenshots)
 -   [My Process](#my-process)
     -   [Built With](#built-with)
     -   [Continued Development](#continued-development)
@@ -30,12 +30,15 @@ Please visit my final project in my [GitHub repository](https://jschuh23.github.
 ### Screenshots
 
 #### Desktop
+
 ![Desktop Screenshot](./design/QR-code-desktop.jpg)
 
 #### Mobile
+
 ![Mobile Screenshot](./design/QR-code-mobile.jpg)
 
 #### Mobile Landscape
+
 ![Mobile Landscape Screenshot](./design/QR-code-mobile-landscape.jpg)
 
 ## MY PROCESS
