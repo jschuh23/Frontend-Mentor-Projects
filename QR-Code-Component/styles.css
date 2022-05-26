@@ -48,6 +48,7 @@ img {
 /* ----- Flex wrapper ----- */
 .flex-wrap {
     height: 100%;
+    height: -webkit-fill-available;
     display: flex;
     justify-content: center;
     align-items: center;
