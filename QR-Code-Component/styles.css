@@ -102,7 +102,7 @@ footer {
 
 /* ----- Media query for landscape orientations ----- */
 
-@media (orientation: landscape) {
+@media (max-width: 900px) and (orientation: landscape) {
     .qr__card {
         width: 90%;
         padding: 1rem;
