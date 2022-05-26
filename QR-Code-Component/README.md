@@ -6,13 +6,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 -   [Overview](#overview)
     -   [The Challenge](#the-challenge)
-    -   [Screenshot](#screenshot)
-    -   [Links](#links)
+    -   [Link](#links)
+    -   [Screenshots](#screenshot)
 -   [My Process](#my-process)
     -   [Built With](#built-with)
     -   [Continued Development](#continued-development)
     -   [Lessons Learned](#lessons-learned)
-    -   [Useful Resources](#useful-resources)
+    <!-- -   [Useful Resources](#useful-resources) -->
 -   [Author](#author)
 
 ## OVERVIEW
@@ -23,37 +23,41 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 -   Newbie level
 -   HTML and CSS skills
 
-### Screenshot
-
-<!-- -   ![Desktop Screenshot](./design/FEM%20Social%20Proof%20-%20desktop.JPG) -->
-
 ### Link
 
 Please visit my final project in my [GitHub repository](https://jschuh23.github.io/Frontend-Mentor-Projects/QR-Code-Component/index.html)
+
+### Screenshots
+
+#### Desktop
+![Desktop Screenshot](./design/QR-code-desktop.jpg)
+
+#### Mobile
+![Mobile Screenshot](./design/QR-code-mobile.jpg)
+
+#### Mobile Landscape
+![Mobile Landscape Screenshot](./design/QR-code-mobile-landscape.jpg)
 
 ## MY PROCESS
 
 ### Built with
 
-<!-- -   Mobile-first workflow with breakpoints at:
-    -   1000px
-    -   1100px
-    -   1000px - 1170px
 -   Semantic HTML5 markup
 -   CSS Flexbox
--   Logical properties used for margin and padding -->
+-   Logical properties used for margin and padding
 
 ### Continued development
 
-<!-- -   I continued learning about CSS flexbox and grid during this challenge as I used these techniques to layout the different components. -->
+-   I continued learning about CSS flexbox during this challenge as I used these techniques to layout the different components.
+-   I did a lot of additional research into the best practices for having content that fills the entire viewport both on desktop and on a mobile device. Ultimately, I was trying to solve the `vh` issues that exist within Safari where the menu bar covers the footer on mobile. I tried several different options with `height`, `min-height`, `-webkit-fill-available` but with no luck.
 
 ### Lessons learned
 
-<!-- -   I did additional research into creating this design in landscape orientation. I have learned that my initial settings for the html and body heights don't seem to be working appropriately when in landscape. NEED TO RESEARCH MORE -->
+-   I did additional research into creating this design in landscape orientation. Initially, I setup my media query for `orientation: landscape` but realized that these values were also affecting my desktop version. This is because that on some monitors (ultrawide, for instance) the width of the monitor is greater than the height. Therefore, the landscape values kick in. So I had to also insert a `max-width` value in the media query to accommodate for this.
 
-### Useful resources
+<!-- ### Useful resources
 
--   
+- -->
 
 ## AUTHOR
 
