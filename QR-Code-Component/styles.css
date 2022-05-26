@@ -7,14 +7,9 @@
 }
 
 /* ----- Reset ----- */
-html {
-    height: 100%;
-    height: -webkit-fill-available;
-}
-
 body {
-    height: 100%;
-    height: -webkit-fill-available;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
     font-family: 'Outfit', sans-serif;
     font-size: 0.9375rem;
     font-weight: 400;
@@ -43,12 +38,14 @@ img {
 /* ----- Main styles to push footer to bottom ----- */
 .main {
     flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* ----- Flex wrapper ----- */
 .flex-wrap {
-    height: 100%;
-    height: -webkit-fill-available;
     display: flex;
     justify-content: center;
     align-items: center;
