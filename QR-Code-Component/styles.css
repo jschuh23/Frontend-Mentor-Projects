@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    height: 100vh;
+    height: 100%;
     font-family: 'Outfit', sans-serif;
     font-size: 0.9375rem;
     font-weight: 400;
@@ -38,9 +38,9 @@ img {
     display: block;
 }
 
-/* ----- Main styles to fill entire viewport ----- */
+/* ----- Main styles to push footer to bottom ----- */
 .main {
-    height: 100%;
+    flex: 1 0 auto;
 }
 
 /* ----- Flex wrapper ----- */
