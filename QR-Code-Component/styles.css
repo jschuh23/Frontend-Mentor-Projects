@@ -99,3 +99,26 @@ footer {
 .attribution a:hover {
     text-decoration: underline;
 }
+
+/* ----- Media query for landscape orientations ----- */
+
+@media (orientation: landscape) {
+    .qr__card {
+        width: 90%;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .qr__card--img {
+        height: 12rem;
+    }
+
+    .qr__card--content {
+        padding-inline-start: 1rem;
+    }
+
+    .qr__card--content h1 {
+        margin-block-start: 0;
+    }
+}
